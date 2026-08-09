@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>ROHIT | Profile</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Mobile Menu -->
+    <div class="menu-btn" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <nav id="menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#discord">Discord</a>
+    </nav>
+
+    <!-- Main Profile -->
+    <main id="home">
+
+        <div class="profile-card">
+
+            <div class="avatar-box">
+                <img src="profile.jpg" alt="Profile">
+                <div id="statusDot" class="status-dot dnd"></div>
+            </div>
+
+            <h1>ROHIT</h1>
+
+            <p class="username">
+                @rohit
+            </p>
+
+            <div class="status-box">
+                <span id="statusText">Checking Discord status...</span>
+            </div>
+
+            <p id="activity" class="activity">
+                Loading activity...
+            </p>
+
+            <div class="buttons">
+                <a href="#about" class="btn primary">About Me</a>
+
+                <a
+                    href="https://discord.com"
+                    target="_blank"
+                    class="btn secondary">
+                    Discord
+                </a>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- About -->
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            Hey! I'm Rohit 👋
+        </p>
+
+        <p>
+            Developer • Discord • Creator
+        </p>
+
+    </section>
+
+    <!-- Discord -->
+    <section id="discord">
+
+        <h2>Discord</h2>
+
+        <div class="discord-card">
+
+            <img src="profile.jpg" alt="Discord Avatar">
+
+            <div>
+                <h3>ROHIT</h3>
+                <p id="discordStatus">Loading status...</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        © 2026 ROHIT • ALONE VERSE
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
